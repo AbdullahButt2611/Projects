@@ -1,0 +1,27 @@
+D:\study material\Second semester\oops\Complex Numbers\Driver\bin\Debug\netcoreapp3.1\Driver.exe
+D:\study material\Second semester\oops\Complex Numbers\Driver\bin\Debug\netcoreapp3.1\Driver.deps.json
+D:\study material\Second semester\oops\Complex Numbers\Driver\bin\Debug\netcoreapp3.1\Driver.runtimeconfig.json
+D:\study material\Second semester\oops\Complex Numbers\Driver\bin\Debug\netcoreapp3.1\Driver.runtimeconfig.dev.json
+D:\study material\Second semester\oops\Complex Numbers\Driver\bin\Debug\netcoreapp3.1\Driver.dll
+D:\study material\Second semester\oops\Complex Numbers\Driver\bin\Debug\netcoreapp3.1\Driver.pdb
+D:\study material\Second semester\oops\Complex Numbers\Driver\obj\Debug\netcoreapp3.1\Driver.csprojAssemblyReference.cache
+D:\study material\Second semester\oops\Complex Numbers\Driver\obj\Debug\netcoreapp3.1\Driver.AssemblyInfoInputs.cache
+D:\study material\Second semester\oops\Complex Numbers\Driver\obj\Debug\netcoreapp3.1\Driver.AssemblyInfo.cs
+D:\study material\Second semester\oops\Complex Numbers\Driver\obj\Debug\netcoreapp3.1\Driver.csproj.CoreCompileInputs.cache
+D:\study material\Second semester\oops\Complex Numbers\Driver\obj\Debug\netcoreapp3.1\Driver.dll
+D:\study material\Second semester\oops\Complex Numbers\Driver\obj\Debug\netcoreapp3.1\Driver.pdb
+D:\study material\Second semester\oops\Complex Numbers\Driver\obj\Debug\netcoreapp3.1\Driver.genruntimeconfig.cache
+C:\Users\DELL\Desktop\Complex Numbers\Driver\bin\Debug\netcoreapp3.1\Driver.exe
+C:\Users\DELL\Desktop\Complex Numbers\Driver\bin\Debug\netcoreapp3.1\Driver.deps.json
+C:\Users\DELL\Desktop\Complex Numbers\Driver\bin\Debug\netcoreapp3.1\Driver.runtimeconfig.json
+C:\Users\DELL\Desktop\Complex Numbers\Driver\bin\Debug\netcoreapp3.1\Driver.runtimeconfig.dev.json
+C:\Users\DELL\Desktop\Complex Numbers\Driver\bin\Debug\netcoreapp3.1\Driver.dll
+C:\Users\DELL\Desktop\Complex Numbers\Driver\bin\Debug\netcoreapp3.1\Driver.pdb
+C:\Users\DELL\Desktop\Complex Numbers\Driver\obj\Debug\netcoreapp3.1\Driver.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Complex Numbers\Driver\obj\Debug\netcoreapp3.1\Driver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Complex Numbers\Driver\obj\Debug\netcoreapp3.1\Driver.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Complex Numbers\Driver\obj\Debug\netcoreapp3.1\Driver.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Complex Numbers\Driver\obj\Debug\netcoreapp3.1\Driver.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Complex Numbers\Driver\obj\Debug\netcoreapp3.1\Driver.dll
+C:\Users\DELL\Desktop\Complex Numbers\Driver\obj\Debug\netcoreapp3.1\Driver.pdb
+C:\Users\DELL\Desktop\Complex Numbers\Driver\obj\Debug\netcoreapp3.1\Driver.genruntimeconfig.cache
