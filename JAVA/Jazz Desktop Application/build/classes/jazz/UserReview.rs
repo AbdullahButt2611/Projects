@@ -1,0 +1,2 @@
+jazz.UserReview
+jazz.Ratings

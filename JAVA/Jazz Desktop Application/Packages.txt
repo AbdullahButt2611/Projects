@@ -1,0 +1,6 @@
+ID,       Subscribers,        messages,       minutes,     mbs,     name,     validity,     code
+P-9170,2,100,100,7000,Weekly,7,*159#
+P-4417,1,1440,1440,152,Daily Super,1,*180#
+P-6458,0,200,21474836,500,Friends Plus,1,*900#
+P-6333,0,100,100,1024,Seven Day Max Offer,7,*865#
+P-4540,0,2000,200,2048,Mahana Bachat Offer,30,*122#
