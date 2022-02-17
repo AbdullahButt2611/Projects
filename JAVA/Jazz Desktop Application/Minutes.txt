@@ -1,5 +1,0 @@
-Minutes ,    Expiry Date
-0,null
-1440,2021-06-20
-0,null
-100,2021-06-26
