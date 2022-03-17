@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;                    /* It takes us below to the required section when clicked on the menu option  */
+}
+
+.navbar{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     position: sticky;
+    top: 0;
+    cursor: pointer;
+    
+}
+
+.navlist{
+    /* display: flex; */
+    width: 70%;
+    /* background-color: black; */
+    display: flex;
+    /* justify-content: center;                    Horizontally center */
+    align-items: center;                        /*Vertically center*/
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&family=Poppins:wght@400;500&family=Ubuntu&display=swap');
+.logo img{
+    width: 26%;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.navlist li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.navlist li a{
+    text-decoration: none;      /*Remove Line*/
+    color:white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navlist li a:hover{
+    color: grey;
+}
+
+.right-nav{
+    /* background-color: aqua; */
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+
+
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0,0,0,0.7) url(../img/Building.jpg);
+    background-size: cover;
+    /* background-blend-mode: darken; */
+}
+
+
+
+/*                                      First Section Start                                  */
+
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;                                     /*It will set the 50% widht of the outer box so inner box gets theirselves accordingly*/
+    margin: auto;
+    height: 80%;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondHalf{
+    width: 30%;
+}
+
+.secondHalf img{
+    height: 104px;
+    width: 70%;
+    /* padding: 4px 0; */
+    border: 4px solid white;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+}
+
+
+.text-big{
+    font-size: 39px;
+}
+
+.text-small{
+    font-size: 18px;
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 8px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+
+.btn-sm{
+    padding: 5px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+
+
+/*                                              New Section                                                              */
+
+
+.section{
+    /* height: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: 20px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.Left{
+    flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 0px 65px;
+}
+
+.thumbnail img{
+    width: 250px;
+    height: 250px;
+    border-radius: 26px;
+    border: 2px solid black;
+    margin-top: 19px;
+}
+
+.sectionTag{
+    padding: 10px;
+}
+
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact{
+    background-color: #f1f1f1;
+    height: 800px;
+}
+
+.text-center{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+
+.form{
+    max-width: 62%;
+    margin: 26px auto;
+}
+
+.form-input{
+    width:100%;
+    font-size: 18px;
+    padding: 6px 13px;
+    border-radius: 6px;
+    border: 2px solid grey;
+    margin: 14px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-dark{
+    color: grey;
+    border: 2px solid grey;
+}
+
+.textfooter{
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    /* background-color: black; */
+    
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
