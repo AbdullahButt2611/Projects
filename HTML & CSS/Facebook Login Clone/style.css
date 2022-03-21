@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(white,#D3D8E8);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.header{
+    background-color: rgb(59, 89, 152);
+    height: 12.2%;
+    width: 100%;
+    font-family: Tahoma;
+    border: 1px solid darkblue;
+}
+
+.header .leftfacebook{
+    font-size: 45px;
+    position: absolute;
+    left: 180px;
+    color: white;
+    top: 3.5%;
+}
+
+.header .rightEmail{
+    position: absolute;
+    right: 495px;
+    color: white;
+    top: 2%;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header .rightPass{
+    position: absolute;
+    right: 350px;
+    color: white;
+    top: 2%;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.header .emailText{
+    width: 150px;
+    height: 22px;
+    border: 0.5px solid black;
+}
+
+.header .passText{
+    width: 150px;
+    height: 22px;
+    border: 0.5px solid black;
+}
+
+.header .logBtn{
+    background-color: #4267b2;
+    height: 22px;
+    color: white;
+    border: 1px solid darkblue;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.header .rightContent{
+    position: absolute;
+    right: 162px;
+    top: 5%;
+}
+
+.forgotLink{
+    color: #9cb4d8;
+    text-decoration: none;
+    position: absolute;
+    right: 270px;
+    top: 65px;
+    font-size: 14px;
+} 
+
+.right{
+    width : 45%;
+    position: absolute;
+    top: 16%;
+    left: 56%;
+    
+}
+
+.left{
+    width: 55%;
+    position: absolute;
+    left: 0;
+    
+    margin-top: 7%;
+    
+}
+
+.left .span1{
+    color: rgb(14,56,95);
+    font-size: 20px;
+    font-weight: 700;
+    width: 300px;
+    word-spacing: -1;
+    display: block;
+    position: relative;
+    left: 200px;
+    margin: 2%;
+}
+
+.left .image{
+    position: relative;
+    left: 150px;
+    border-radius: 16px;
+}
+
+.right .span1{
+    color: #333;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.right .span2{
+    color: #1d2129;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right .registrationForm{
+    width: 180px;
+    background-color: white;
+    border: 1px solid rgb(189,199,216);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    outline-color: rgb(77,144,254);
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 6px;
+
+}
+
+.right #mb{
+    width: 399px;
+}
+
+.right .span3{
+    color: #1d2129;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right select{
+    background-color: rgb(221,221,221);
+    border: 1px solid rgb(189,199,216);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    height: 30px;
+    padding: 5px;
+    width: 56px;
+    margin: 0;
+}
+
+.right #birhdayHelp{
+    color: rgb(54,88,153);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-decoration-color: rgb(54,88,153);
+    width: 150px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.right .gender{
+    color: rgb(29,33,41);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 3px;
+    padding-right: 10px;
+    margin-top: 30px;
+}
+
+.termsandCondition{
+    color: rgb(119,119,119);
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    width: 316px;
+
+
+}
+
+#submit{
+    font-size: 18px;
+    background-color: rgb(105,167,78);
+    border: 1px solid rgb(59,110,34);
+    color: white;
+    font-family: "Freight Sans Bold",Arial, Helvetica, sans-serif;
+    width: 205px;
+    text-align: center;
+    padding: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-shadow: rgba(0, 0, 0,0.5) 0px 1px 2px;
+    border-radius: 5px;
+    height: 60px;
+    cursor: pointer;
+}

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\Complex Numbers\\Driver\\Driver.csproj",
+      "projectUniqueName": "D:\\My Self Github Repo\\Projects\\C#\\Complex Numbers\\Driver\\Driver.csproj",
       "projectName": "Driver",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\Complex Numbers\\Driver\\Driver.csproj",
+      "projectPath": "D:\\My Self Github Repo\\Projects\\C#\\Complex Numbers\\Driver\\Driver.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\Complex Numbers\\Driver\\obj\\",
+      "outputPath": "D:\\My Self Github Repo\\Projects\\C#\\Complex Numbers\\Driver\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
