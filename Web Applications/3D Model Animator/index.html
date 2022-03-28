@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>3D Model Viewer</title>
+</head>
+<body>
+    
+    <div class="demo">
+        <model-viewer id="model" src="RobotExpressive.glb" ar   camera-controls  skybox-image="staidum.hdr" animation-name="Running" autoplay></model-viewer>
+    </div>
+
+    <div class="btn-container">
+        <button type="button" onclick="stop()">STOP</button>
+        <button type="button" onclick="run()">RUN</button>
+        <button type="button" onclick="wave()">WAVE</button>
+    </div>
+
+
+    <script>
+        var modelViewer = document.getElementById('model');
+
+        function stop(){
+            modelViewer.animationName = 'none';
+        }
+
+        function run(){
+            modelViewer.animationName = 'Running';
+        }
+
+        function wave(){
+            modelViewer.animationName = 'Wave';
+        }
+
+        
+    </script>
+
+</body>
+</html>
