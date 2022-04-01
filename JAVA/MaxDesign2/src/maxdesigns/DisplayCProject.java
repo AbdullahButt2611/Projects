@@ -53,7 +53,7 @@ public class DisplayCProject extends javax.swing.JInternalFrame {
     
     public void tableSet()
     {
-        jScrollPane1.setBackground(new Color(0,0,0,0));
+       jScrollPane1.setBackground(new Color(0,0,0,0));
        jScrollPane1.setOpaque(false);
        jTable1.setOpaque(false);
        ((DefaultTableCellRenderer)jTable1.getDefaultRenderer(Object.class)).setOpaque(false);
