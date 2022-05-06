@@ -1,0 +1,125 @@
+
+
+/* Centering the content and making the border black */
+html,body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    overflow: hidden;
+}
+
+
+.netflix{
+    position: relative;
+    width: 242px;
+    height: 400px;
+    overflow: hidden;
+    animation: anim-netflix 0.8s ease-in forwards;
+    animation-delay: 0.4s;
+    top: 80px;
+}
+
+.n-1{
+    left: 00px;
+    animation: anim-1 0.2s linear forwards;
+}
+
+.n-3{
+    right: 00px;
+    animation: anim-3 0.2s linear forwards;
+    animation-delay: 0.4s;
+}
+
+.n-1,.n-3{
+    background: #B10510;
+    height: 400px;
+    width: 80px;
+    position: absolute;
+}
+
+.n-2{
+    background: transparent;
+    height: 500px;
+    width: 90px;
+    position: absolute;
+    transform: rotateZ(-20deg);
+    top: -51px;
+    left: 75px;
+    box-shadow: 4px 4px 15px #00000085;
+}
+
+
+.n-1::after{
+    content: "";
+    height: 7px;
+    width: 100%;
+    bottom: -2px;
+    position: absolute;
+    background: black;
+    transform: rotateZ(-3deg);
+}
+
+.n-3::after{
+    content: "";
+    height: 10px;
+    width: 130px;
+    bottom: -5px;
+    left: -25px;
+    position: absolute;
+    background: black;
+    transform: rotateZ(5deg);
+    z-index: 99;
+}
+
+.filler{
+    background: #E50815;
+    height: 0px;
+    animation: anim-filler 0.2s linear forwards;
+    animation-delay: 0.2s;
+}
+
+@keyframes anim-1 {
+    0%{
+        top: 400px;
+    }
+
+    100%{
+        top: 0px;
+    }
+}
+
+@keyframes anim-3 {
+    0%{
+        top: 400px;
+    }
+
+    100%{
+        top: 0px;
+    }
+}
+
+@keyframes anim-filler {
+    0%{
+        height: 0px;
+    }
+
+    100%{
+        height: 500px;
+    }
+}
+
+@keyframes anim-netflix {
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.4);
+    }
+}
+
+
