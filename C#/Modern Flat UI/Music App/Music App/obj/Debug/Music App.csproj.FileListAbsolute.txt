@@ -1,0 +1,12 @@
+D:\My Self Github Repo\Projects\C#\Modern Flat UI\Music App\Music App\bin\Debug\Music App.exe.config
+D:\My Self Github Repo\Projects\C#\Modern Flat UI\Music App\Music App\bin\Debug\Music App.exe
+D:\My Self Github Repo\Projects\C#\Modern Flat UI\Music App\Music App\bin\Debug\Music App.pdb
+D:\My Self Github Repo\Projects\C#\Modern Flat UI\Music App\Music App\obj\Debug\Music App.csproj.AssemblyReference.cache
+D:\My Self Github Repo\Projects\C#\Modern Flat UI\Music App\Music App\obj\Debug\Music_App.Form1.resources
+D:\My Self Github Repo\Projects\C#\Modern Flat UI\Music App\Music App\obj\Debug\Music_App.Properties.Resources.resources
+D:\My Self Github Repo\Projects\C#\Modern Flat UI\Music App\Music App\obj\Debug\Music App.csproj.GenerateResource.cache
+D:\My Self Github Repo\Projects\C#\Modern Flat UI\Music App\Music App\obj\Debug\Music App.csproj.CoreCompileInputs.cache
+D:\My Self Github Repo\Projects\C#\Modern Flat UI\Music App\Music App\obj\Debug\Music App.exe
+D:\My Self Github Repo\Projects\C#\Modern Flat UI\Music App\Music App\obj\Debug\Music App.pdb
+D:\My Self Github Repo\Projects\C#\Modern Flat UI\Music App\Music App\obj\Debug\Music_App.Form2.resources
+D:\My Self Github Repo\Projects\C#\Modern Flat UI\Music App\Music App\obj\Debug\Music_App.Form3.resources
