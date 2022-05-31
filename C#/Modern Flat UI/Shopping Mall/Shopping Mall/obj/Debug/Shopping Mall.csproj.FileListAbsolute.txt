@@ -10,3 +10,9 @@ D:\My Self Github Repo\Projects\C#\Modern Flat UI\Shopping Mall\Shopping Mall\ob
 D:\My Self Github Repo\Projects\C#\Modern Flat UI\Shopping Mall\Shopping Mall\obj\Debug\Shopping Mall.csproj.CopyComplete
 D:\My Self Github Repo\Projects\C#\Modern Flat UI\Shopping Mall\Shopping Mall\obj\Debug\Shopping Mall.exe
 D:\My Self Github Repo\Projects\C#\Modern Flat UI\Shopping Mall\Shopping Mall\obj\Debug\Shopping Mall.pdb
+D:\My Self Github Repo\Projects\C#\Modern Flat UI\Shopping Mall\Shopping Mall\obj\Debug\Shopping_Mall.FormCustomers.resources
+D:\My Self Github Repo\Projects\C#\Modern Flat UI\Shopping Mall\Shopping Mall\obj\Debug\Shopping_Mall.FormDashboard.resources
+D:\My Self Github Repo\Projects\C#\Modern Flat UI\Shopping Mall\Shopping Mall\obj\Debug\Shopping_Mall.FormMarketting.resources
+D:\My Self Github Repo\Projects\C#\Modern Flat UI\Shopping Mall\Shopping Mall\obj\Debug\Shopping_Mall.FormOrders.resources
+D:\My Self Github Repo\Projects\C#\Modern Flat UI\Shopping Mall\Shopping Mall\obj\Debug\Shopping_Mall.FormProducts.resources
+D:\My Self Github Repo\Projects\C#\Modern Flat UI\Shopping Mall\Shopping Mall\obj\Debug\Shopping_Mall.FormSettings.resources

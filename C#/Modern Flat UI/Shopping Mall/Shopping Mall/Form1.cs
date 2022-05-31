@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using FontAwesome.Sharp;
+using System.Runtime.InteropServices;
 
 namespace Shopping_Mall
 {
@@ -16,6 +17,7 @@ namespace Shopping_Mall
         //fields
         private IconButton currentBtn;
         private Panel leftBorderBtn;
+        private Form currentChildform;
 
         //Structs
         private struct RGBColor{
@@ -34,6 +36,11 @@ namespace Shopping_Mall
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7,60);
             panelMenu.Controls.Add(leftBorderBtn);
+
+            this.Text = String.Empty;
+            this.ControlBox = false;
+            this.DoubleBuffered = true;
+            this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
         }
 
 
@@ -54,6 +61,9 @@ namespace Shopping_Mall
                 leftBorderBtn.Location = new Point(0,currentBtn.Location.Y);
                 leftBorderBtn.Visible = true;
                 leftBorderBtn.BringToFront();
+
+                IconCurrentChildform.IconChar = currentBtn.IconChar;
+                IconCurrentChildform.IconColor = color;
             }
         }
 
@@ -73,33 +83,92 @@ namespace Shopping_Mall
         private void btnDashboard_Click(object sender, EventArgs e)
         {
             ActivateButton(sender,RGBColor.color1);
+
+            openChildform(new FormDashboard());
         }
 
         private void btnOrders_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColor.color2);
+
+            openChildform(new FormOrders());
         }
 
         private void btnProducts_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColor.color3);
+
+            openChildform(new FormProducts());
         }
 
         private void btnCustomers_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColor.color4);
+
+            openChildform(new FormCustomers());
         }
 
         private void btnMarket_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColor.color5);
+
+            openChildform(new FormMarketting());
         }
 
         private void btnSettings_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColor.color6);
+
+            openChildform(new FormSettings());
         }
 
-        //12:45
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            currentChildform.Close();
+            Reset();
+        }
+
+        private void Reset()
+        {
+            DisableBtn();
+            leftBorderBtn.Visible = false;
+
+            IconCurrentChildform.IconChar = IconChar.Home;
+            IconCurrentChildform.IconColor = Color.MediumPurple;
+            labelTitleCjildForm.Text = "Home";
+        }
+
+
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+
+        private void panelTitleBar_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+        
+
+        private void openChildform(Form childForm)
+        {
+            if(currentChildform!=null)
+            {
+                currentChildform.Close();
+            }
+
+            currentChildform = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+
+            panelDesktop.Controls.Add(childForm);
+            panelDesktop.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+            labelTitleCjildForm.Text = childForm.Text; 
+        }
     }
 }
