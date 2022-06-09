@@ -1,20 +1,30 @@
+const STICK_ORIGIN = new Vector2(970,11);
+
+
+
+
 function stick(position)
 {
     this.position = position;
-    this.origin = new Vector2(500,10);
+    this.rotation = 0;
 }
 
 stick.prototype.update = function(){
     
-    this.position = Mouse.position;
-
-    if(Mouse.left.pressed)
-    {
-        console.log("Pressed Left");
-    }
+   this.updateRotation();
 
 }
 
 stick.prototype.draw = function(){
-    Canvas.drawImage(sprites.stick, this.position, this.origin);
+    Canvas.drawImage(sprites.stick, this.position, STICK_ORIGIN, this.rotation);
+}
+
+
+stick.prototype.updateRotation = function(){
+
+    let opposite = Mouse.position.y - this.position.y;
+    let adjacent = Mouse.position.x - this.position.x;
+
+    this.rotation = Math.atan2(opposite.adjacent);
+
 }

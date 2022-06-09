@@ -40,11 +40,13 @@ namespace Shopping_Mall
             this.panelLogo = new System.Windows.Forms.Panel();
             this.btnHome = new System.Windows.Forms.PictureBox();
             this.panelTitleBar = new System.Windows.Forms.Panel();
-            this.IconCurrentChildform = new FontAwesome.Sharp.IconPictureBox();
             this.labelTitleCjildForm = new System.Windows.Forms.Label();
+            this.IconCurrentChildform = new FontAwesome.Sharp.IconPictureBox();
             this.panelShadow = new System.Windows.Forms.Panel();
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnHome)).BeginInit();
@@ -52,6 +54,7 @@ namespace Shopping_Mall
             ((System.ComponentModel.ISupportInitialize)(this.IconCurrentChildform)).BeginInit();
             this.panelDesktop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -226,6 +229,8 @@ namespace Shopping_Mall
             // panelTitleBar
             // 
             this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(25)))), ((int)(((byte)(62)))));
+            this.panelTitleBar.Controls.Add(this.pictureBox2);
+            this.panelTitleBar.Controls.Add(this.label1);
             this.panelTitleBar.Controls.Add(this.labelTitleCjildForm);
             this.panelTitleBar.Controls.Add(this.IconCurrentChildform);
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
@@ -235,6 +240,16 @@ namespace Shopping_Mall
             this.panelTitleBar.Size = new System.Drawing.Size(914, 80);
             this.panelTitleBar.TabIndex = 1;
             this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
+            // 
+            // labelTitleCjildForm
+            // 
+            this.labelTitleCjildForm.AutoSize = true;
+            this.labelTitleCjildForm.ForeColor = System.Drawing.Color.Gainsboro;
+            this.labelTitleCjildForm.Location = new System.Drawing.Point(61, 30);
+            this.labelTitleCjildForm.Name = "labelTitleCjildForm";
+            this.labelTitleCjildForm.Size = new System.Drawing.Size(45, 17);
+            this.labelTitleCjildForm.TabIndex = 1;
+            this.labelTitleCjildForm.Text = "Home";
             // 
             // IconCurrentChildform
             // 
@@ -248,16 +263,6 @@ namespace Shopping_Mall
             this.IconCurrentChildform.Size = new System.Drawing.Size(32, 32);
             this.IconCurrentChildform.TabIndex = 0;
             this.IconCurrentChildform.TabStop = false;
-            // 
-            // labelTitleCjildForm
-            // 
-            this.labelTitleCjildForm.AutoSize = true;
-            this.labelTitleCjildForm.ForeColor = System.Drawing.Color.Gainsboro;
-            this.labelTitleCjildForm.Location = new System.Drawing.Point(61, 30);
-            this.labelTitleCjildForm.Name = "labelTitleCjildForm";
-            this.labelTitleCjildForm.Size = new System.Drawing.Size(45, 17);
-            this.labelTitleCjildForm.TabIndex = 1;
-            this.labelTitleCjildForm.Text = "Home";
             // 
             // panelShadow
             // 
@@ -291,6 +296,27 @@ namespace Shopping_Mall
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Gainsboro;
+            this.label1.Location = new System.Drawing.Point(451, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(227, 24);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Muhammad Abdullah Butt";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(724, 30);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -310,6 +336,7 @@ namespace Shopping_Mall
             ((System.ComponentModel.ISupportInitialize)(this.IconCurrentChildform)).EndInit();
             this.panelDesktop.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -331,6 +358,8 @@ namespace Shopping_Mall
         private System.Windows.Forms.Panel panelShadow;
         private System.Windows.Forms.Panel panelDesktop;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 

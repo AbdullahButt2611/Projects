@@ -170,5 +170,22 @@ namespace Shopping_Mall
             childForm.Show();
             labelTitleCjildForm.Text = childForm.Text; 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Alphabeticall arrangment")
+            {
+                Console.WriteLine("We are not eligible to post this thing here");
+            }
+            else
+            {
+                Console.WriteLine("All the data corresponding to this relation is eligible");
+            }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
