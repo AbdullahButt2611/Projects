@@ -42,9 +42,3 @@ gsap.from('.home__button', {opacity: 0, duration:1, delay: 2.1, y: 30});
 gsap.from('.home__img', {opacity: 0, duration:1, delay: 1.3, y: 30});
 
 
-
-
-
-// ==================   Menu Show Y Hidden  ===============================
-// ==================   Menu Show Y Hidden  ===============================
-// ==================   Menu Show Y Hidden  ===============================
