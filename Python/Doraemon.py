@@ -139,8 +139,135 @@ def whiskers():
     goto(40, -10)
 
 
+
+
+def body():
+    #blue body
+    color("blue", "blue")
+    penup()
+    goto(-50, -40)
+    drawRect(100, 80, True)
+
+    #white belly
+    color("white", "white")
+    penup()
+    goto(0, -30)
+    drawRound(40, True)
+
+    #red ribbon
+    color("red", "red")
+    penup()
+    goto(-60, -35)
+    drawRect(120, 10, True)
+
+    #white legs
+    color("white", "white")
+    penup()
+    goto(15, -127)
+    pendown()
+    setheading(90)
+    begin_fill()
+    circle(14, 180)
+    end_fill()
+
+
+def feet():
+    #left foot
+    color("black", "white")
+    penup()
+    goto(-30, -110)
+    drawRound(20, True)
+
+    #right foot
+    color("black", "white")
+    penup()
+    goto(30, -110)
+    drawRound(20, True)
+
+def arms():
+    #Left arm
+    color("blue", "blue")
+    penup()
+    begin_fill()
+    goto(-51,-50)
+    pendown()
+    goto(-51,-75)
+    left(70)
+    goto(-76,-85)
+    left(70)
+    goto(-86,-70)
+    left(70)
+    goto(-51,-50)
+    end_fill()
+    #Right arm
+    color("blue", "blue")
+    penup()
+    begin_fill()
+    goto(49, -50)
+    pendown()
+    goto(49,-75)
+    left(70)
+    goto(74,-85)
+    left(70)
+    goto(84,-70)
+    left(70)
+    goto(49,-50)
+    end_fill()
+
+def hands():
+    #Left thand
+    color( "black", "white")
+    penup()
+    goto(-90,-71)
+    drawRound (15, True)
+
+    #Righthand
+    color("black", "white")
+    penup()
+    goto(90, -71)
+    drawRound(15, True)
+
+def bell():
+    #Yellow solid circle indicates copper bell
+    color("yellow", "yellow")
+    penup()
+    goto(0,-41)
+    drawRound(8, True)
+
+    #Black rectangle indicates pattern
+    color("black", "black")
+    penup()
+    goto(-10,-47)
+    drawRect(20,4, False)
+
+    #The black solid circle indicates the impacted metal pill
+    color("black", "black")
+    penup()
+    goto(0,-53)
+    drawRound(2, True)
+
+def package():
+    #semicircle
+    color("black", "black")
+    penup()
+    goto(-25,-70)
+    pendown()
+    setheading(-90)
+    circle(25,180)
+    goto(-25,-70)
+    hideturtle()
+
+
+
 head()
 eyes()
 nose()
 mouth()
 whiskers()
+body()
+feet()
+arms()
+hands()
+bell()
+package()
+input()
