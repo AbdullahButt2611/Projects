@@ -6,7 +6,7 @@ Yu ccan watch this project in action through the [video](https://youtu.be/p4PIXf
 <br><br>
 
 ## GUI
-![Demo](Demo.png)
+![Demo](img/Demo.png)
 <br><br>
 
 ## Developer
