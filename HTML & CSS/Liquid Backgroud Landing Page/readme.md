@@ -1,13 +1,6 @@
 <h1 align = "center">Liquid Background</h1>
 <p align = "center">Responsive Landing Page<br>HTML CSS<p>
 
-
-## Features
-<br>
-Following are some of the new features and learning encountered while creating this amazing project:
--
-<br><br>
-
 ## Resources
 <br>
 Follwing resources have been used in maing this project:
