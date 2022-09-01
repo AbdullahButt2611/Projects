@@ -10,6 +10,7 @@ Follwing resources have been used in maing this project:
 <br><br>
   
 ## GUI
+![Demo of Landing Page](images/Demo.png)
 <br><br>
 
 ## Technology Stack
@@ -21,6 +22,7 @@ Follwing technologies have been used at the core of this application to make it 
 <br><br>
 
 ## Advancement
+> No Advancement Required.
 <br><br>
 
 
