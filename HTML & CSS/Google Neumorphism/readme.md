@@ -1,5 +1,5 @@
 <p align = "center">
-  <img src = "Google Neumorphism/images/google-logo.png" width = "150">
+  <img src = "images/google-logo.png" width = "150">
 </p>
 <h1 align = "center">Google Neumorphism</h1>
 <h5 align = "center">HTML CSS</h5>
@@ -34,19 +34,6 @@ Follwing technologies have been used at the core of this application to make it 
 ## Advancement
 <br><br>
 
-## Deployment Details
-<br>
-The website is deployed using the free hosting provided by **Vercel**
-<p align = "center">
-  <img src = "https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/Vercel-900x0.png" width = "300">
-</p>
-<br><br>
-Later on the link was customized using the well known url shortner and customizer **Rebrandly**:<br><br>
-<p align = "center">
-  <img src = "https://www.rebrandly.com/images/URL-Shortener.fileextension.svg" width = "300">
-</p>
-
-<br><br>
 
 ## Developer
 Muhammad Abdullah Butt <br>
