@@ -6,6 +6,7 @@
     --shadow-dark-color: #d3dae7;
     --shadow-light-color: #fff;
     --main-bg-color: #ecf0f3;
+    --box-shadow: 1rem 1rem 1rem var(--shadow-dark-color), -1rem -1rem 1rem var(--shadow-light-color);
 }
 
 *{
@@ -37,7 +38,41 @@ img{
 }
 
 /* ===========================      Wrapper    ================================ */
+.wrapper{
+    background: var(--main-bg-color);
+    border-radius: 2rem;
+    width: 84%;
+    height: 80%;
+    box-shadow: var(--box-shadow);
+    padding: 3rem;
+    transition: all 300ms ease;
+}
 
+.wrapper:hover{
+    box-shadow: 0 0 transparent;
+}
 
+.wrapper .container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper .container .top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: coral;
+}
+
+.wrapper .container .top .left{
+    background: var(--icons-bg-color);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
 
 
