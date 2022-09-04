@@ -21,17 +21,22 @@ Follwing resources have been used in maing this project:
 <br><br>
 
 ## GUI
+
+<img src = "images/Neumorphic Design.png">
+
 <br><br>
 
 ## Technology Stack
 <br>
 Follwing technologies have been used at the core of this application to make it stand in the market place:
+
 - HTML
 - CSS
 - Neumorphic Design
 <br><br>
 
 ## Advancement
+> No Advancement Requirement
 <br><br>
 
 
