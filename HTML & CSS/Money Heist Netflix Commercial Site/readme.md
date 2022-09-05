@@ -1,52 +1,35 @@
 <p align = "center">
-  Hey
+  <img src = "img/Money-Heist-Logo.png" width = "300">
 </p>
-## Description
-<br><br>
-
-## Features
-<br>
-Following are some of the new features and learning encountered while creating this amazing project:
--
-<br><br>
+<h3 align = "center">Netflix Series</h3>
+<p align = "center">Landing Page</p>
 
 ## Resources
 <br>
 Follwing resources have been used in maing this project:
-- 
-<br><br>
 
-## Demo
-<br><br>
-
-## Link To Video
+- [Google Fonts](https://fonts.google.com/specimen/Roboto) to import **Roboto** font family
 <br><br>
 
 ## GUI
+
+![Demo](img/Demo.png)
 <br><br>
 
 ## Technology Stack
 <br>
 Follwing technologies have been used at the core of this application to make it stand in the market place:
-- 
+
+- HTML
+- CSS
+- Adobe Illustrator
 <br><br>
 
 ## Advancement
+> No Advancement Required
 <br><br>
 
-## Deployment Details
-<br>
-The website is deployed using the free hosting provided by **Vercel**
-<p align = "center">
-  <img src = "https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/Vercel-900x0.png" width = "300">
-</p>
-<br><br>
-Later on the link was customized using the well known url shortner and customizer **Rebrandly**:<br><br>
-<p align = "center">
-  <img src = "https://www.rebrandly.com/images/URL-Shortener.fileextension.svg" width = "300">
-</p>
 
-<br><br>
 
 ## Developer
 Muhammad Abdullah Butt <br>
