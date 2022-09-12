@@ -142,5 +142,32 @@ nav ul li:last-child a:hover{
 .plate{
     position: absolute;
     top: 15%;
+    right: 5%;
+    width: 38rem;
+    height: 38rem;
+    background: var(--color-light);
+    border-radius: 50%;
+    box-shadow: var(--box-shadow);
+    animation: animatePlate 30s 3s linear forwards infinite;
 }
 
+@keyframes animatePlate {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.plate .food{
+    width: 26rem;
+    height: 26rem;
+    position: absolute;
+    top: 53%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+img{
+    width: 100%;
+}
